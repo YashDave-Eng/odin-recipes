@@ -1,0 +1,24 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: palegoldenrod;
+}
+
+.recipes-heading{
+    color: brown;
+    background-color: burlywood;
+    text-align: center;
+    padding: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.main-recipes{
+    
+}
