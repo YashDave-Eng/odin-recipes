@@ -1,7 +1,61 @@
-html{
+html {
     box-sizing: border-box;
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
     box-sizing: inherit;
 }
+
+
+
+.home .home-link {
+    background-color: burlywood;
+    margin-right: 435px;
+    border: 4px solid brown;
+    font-size: 18px;
+    border-style: outset;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.dish-img {
+    display: block;
+    margin-left: 250px;
+}
+
+.dish-heading,
+.dish-description,
+.dish-ingredients,
+.dish-steps {
+    display: block;
+    margin-right: 650px;
+    margin-left: 250px;
+}
+
+.dish-heading {
+    font-size: 40px;
+}
+
+.dish-description,
+.dish-ingredients,
+.dish-steps {
+    font-size: 18px;
+}
+
+/* greek-pasta-salad.html */
+
+
+
+
+
+
+/* lasagna.html */
+
+
+
+
+
+/* paneer-tikka.html */
