@@ -8,41 +8,78 @@ html {
     box-sizing: inherit;
 }
 
-
+body {
+    font-family: verdana, sans-serif;
+    background-color: palegoldenrod;
+}
 
 .home .home-link {
     background-color: burlywood;
-    margin-right: 435px;
-    border: 4px solid brown;
-    font-size: 18px;
-    border-style: outset;
-    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 12px;
     text-decoration: none;
     color: black;
 }
 
-.dish-img {
-    display: block;
-    margin-left: 250px;
+.home :hover {
+    background-color: cadetblue;
+    color: black;
 }
 
-.dish-heading,
-.dish-description,
-.dish-ingredients,
-.dish-steps {
+.section-1 {
+    display: inline-block;
+    margin-left: 520px;
+}
+
+.dish-description {
     display: block;
-    margin-right: 650px;
-    margin-left: 250px;
+    /* width: 45%;*/
+}
+
+.dish-img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
 }
 
 .dish-heading {
     font-size: 40px;
 }
 
+.section-2 {
+    display: inline-block;
+
+    margin-left: 150px;
+    /* border: 2px solid black; */
+}
+
 .dish-description,
 .dish-ingredients,
 .dish-steps {
-    font-size: 18px;
+    font-size: 16px;
+}
+
+
+.dish-steps,
+.dish-ingredients,
+.dish-description {
+    display: inline-block;
+    /* margin: 0 auto; */
+    border: 1px solid black;
+
+    /* both the boxes are taking 45% of the available space */
+    width: 45%;
+
+    /* aligns the element from the top */
+    vertical-align: top;
+
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    padding: 0.5em 1em;
+    margin: 1em 0.5em;
 }
 
 /* greek-pasta-salad.html */
